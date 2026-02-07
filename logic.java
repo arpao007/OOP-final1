@@ -1,4 +1,4 @@
-public class Logic {
+public class logic {
     // ตัวแปรเก็บค่าตัวเลขตัวแรก (ก่อนกด operator)
     private double firstValue;
     // ตัวแปรเก็บค่าตัวเลขตัวที่สอง (หลังเลือก operator)
@@ -7,7 +7,7 @@ public class Logic {
     private String operator;
     
     // constructor สำหรับสร้างอ็อบเจกต์ Logic
-    public Logic() {
+    public logic() {
         reset();
     }
     

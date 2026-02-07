@@ -4,14 +4,14 @@ import java.awt.*;
 
 public class UI {
 
-    private Logic logic;
+    private logic logic;
     private JFrame frame;
     private JTextField textField;
     private double firstValue = 0;
     private String operator = "";
     private boolean isNewCalculation = false;
 
-    public UI(Logic logic) {
+    public UI(logic logic) {
         this.logic = logic;
         createUI();
     }
