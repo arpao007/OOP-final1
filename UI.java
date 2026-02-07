@@ -81,7 +81,7 @@ public class UI {
                 operator = "";
                 isNewCalculation = true;
             }
-        } 
+        }
         else {
             if (isNewCalculation) {
                 textField.setText("");
